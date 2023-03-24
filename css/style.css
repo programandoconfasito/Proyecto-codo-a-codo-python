@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 * {
   margin: 0;
@@ -45,17 +46,13 @@
 .logo a {
   text-decoration: none;
   font-size: 30px;
-  color: #eb2727b7;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.267);
+  color: #dd5151b7;
+  font-family: "Oswald", sans-serif;
 }
 .header {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-      rgba(252, 67, 129, 0.103),
-      rgba(255, 147, 114, 0.247)
-    ),
-    url(/img/portada4.jpg);
+  background: linear-gradient(#27404600, #e6dada00), url(/img/portada4.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -66,6 +63,7 @@
   padding: 150px;
   color: white;
   font-family: "Open Sans", sans-serif;
+  text-shadow: 0 2px 5px black;
 }
 .carrusel {
   width: 100%;
