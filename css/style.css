@@ -17,12 +17,12 @@
   text-decoration: none;
   padding: 0 45px;
   font-size: 1.4rem;
-  color: white;
+  color: black;
 }
 .navbar {
   width: 100%;
   height: 10vh;
-  background-color: rgba(3, 3, 3, 0.644);
+  background-color: rgba(32, 89, 141, 0.822);
 }
 .enlaces {
   margin-left: 300px;
@@ -35,7 +35,7 @@
 .logo a {
   text-decoration: none;
   font-size: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .portada {
   width: 100%;
@@ -57,7 +57,7 @@
 .footer {
   width: 100%;
   height: 30vh;
-  background: rgba(3, 3, 3, 0.644);
+  background: rgba(32, 89, 141, 0.822);
   display: flex;
   flex-direction: row;
 }
@@ -93,4 +93,20 @@
   display: block;
   text-decoration: none;
   color: black;
+}
+.terminos-condiciones {
+  width: 100%;
+  height: 3vh;
+  background-color: rgb(96, 97, 102);
+  text-align: center;
+  font-weight: bold;
+}
+
+.formulario {
+  width: 100%;
+  height: 90vh;
+}
+.formulario input {
+  padding: 10px;
+  margin: 10px;
 }
