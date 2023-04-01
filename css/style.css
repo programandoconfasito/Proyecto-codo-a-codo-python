@@ -140,19 +140,46 @@
   text-align: center;
   font-weight: bold;
 }
-
+.contacto {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.titulo-contacto {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
 .formulario {
-  width: 50%;
-  height: 70vh;
-  padding: 30px;
-  border: 1px solid black;
-  border-radius: 20px;
-  text-align: center;
-  margin: 50px auto;
-  box-shadow: 0 0 10px black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 100px auto;
 }
 .formulario input {
+  padding: 12px 10px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background: #e9e9e9;
+}
+input[type="submit"] {
+  width: 200px;
+  color: white;
+  border-radius: 5px;
+  background: rgb(84, 85, 87);
+  margin: 10px auto;
+}
+
+.ubicacion {
+  margin: 100px 0 100px 50px;
+  box-shadow: 0 0 10px black;
+}
+#comentario {
   padding: 10px;
-  margin: 10px;
-  width: 60%;
+  margin: 0 auto;
+  background: #e9e9e9;
 }
