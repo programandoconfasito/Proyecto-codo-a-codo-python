@@ -228,7 +228,7 @@ input[type="submit"] {
 .iphone,
 .xiaomi,
 .samsung {
-  width: 50%;
+  width: 40%;
   height: 400px;
   margin: 15px auto;
   border-radius: 20px;
@@ -237,8 +237,8 @@ input[type="submit"] {
 }
 
 .tarjetas {
-  margin-left: 15vw;
-  width: 83vw;
+  /* margin-left: 15vw; */
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
