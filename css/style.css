@@ -190,8 +190,9 @@ input[type="submit"] {
 
 .sidebar {
   width: 20vw;
-  height: 100vh;
+  height: 100%;
   background: rgb(162, 165, 170);
+  box-shadow: 0 0 5px black;
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -239,7 +240,7 @@ input[type="submit"] {
 
 .tarjetas {
   /* margin-left: 15vw; */
-  width: 100vw;
+  width: 98vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
