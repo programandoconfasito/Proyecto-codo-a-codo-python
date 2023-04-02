@@ -49,7 +49,7 @@
 } */
 .navbar {
   top: 01px;
-  position: sticky;
+  /* position: sticky; */
   width: 100%;
   background-color: rgba(41, 41, 41, 0.219);
   display: flex;
@@ -228,8 +228,9 @@ input[type="submit"] {
 .iphone,
 .xiaomi,
 .samsung {
-  width: 40%;
+  width: 500px;
   height: 400px;
+  overflow: hidden;
   margin: 15px auto;
   border-radius: 20px;
   box-shadow: 0 0 10px black;
