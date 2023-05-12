@@ -20,11 +20,11 @@ window.addEventListener("click", (e) => {
   console.log(e.target); //me dice a qué elemento le doy click
 });
 
-hamburguer.addEventListener("touchstart", () => {
+hamburguer.addEventListener("touch", () => {
   menu.classList.toggle("aparecer"); //cada vez que hagamos click, al menú hamburguesa, le va agregar la clase aparecer
 });
 
-window.addEventListener("touchstart", (e) => {
+window.addEventListener("touch", (e) => {
   if (
     menu.classList.contains("aparecer") &&
     e.target != menu &&
