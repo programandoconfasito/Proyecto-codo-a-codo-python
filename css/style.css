@@ -565,6 +565,59 @@ input[type="submit"]:hover {
   overflow: hidden;
 }
 
+/* MOTOROLA */
+.sobre-moto {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(65, 65, 65, 0.103), rgba(56, 56, 56, 0.205)),
+    url(../img/motorola/motorola\ port\ grande.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.moto-section {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.moto-tarjeta {
+  margin: 10px 3px;
+  width: 33%;
+  height: 500px;
+  /* border-radius: 20px; */
+  background: rgb(255, 254, 254);
+  overflow: hidden;
+}
+.edge30u {
+  background: url(../img/motorola/edge30ultra/edge30-negro-frente-rotado_4.png);
+}
+.neo30 {
+  background: url(../img/motorola/neo30/moto-edge30neo-black-frente_1.png);
+}
+.g72 {
+  background: url(../img/motorola/g72/frente_23\ g72.png);
+}
+.g52 {
+  background: url(../img/motorola/g52/g52-negro-frente-rotada.png);
+}
+.g42 {
+  background: url(../img/motorola/g42/motog42-rosa-frenterotado.png);
+}
+.g22 {
+  background: url(../img/motorola/g22/g22-negro-frente.png);
+}
+.img {
+  width: 100%;
+  height: 75%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 @media (max-width: 992px) {
   .navbar {
     width: 100%;
