@@ -511,6 +511,60 @@ input[type="submit"]:hover {
   background-size: cover;
   background-position: center;
 }
+
+/* SAMSUNG */
+.sobre-samsung {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(65, 65, 65, 0.103), rgba(56, 56, 56, 0.205)),
+    url(../img/samsung/samsung\ portada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.samsung-section {
+  width: 100%;
+  height: 300vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.samsung-tarjeta {
+  margin: 10px 3px;
+  width: 33%;
+  height: 500px;
+  /* border-radius: 20px; */
+  background: rgb(255, 254, 254);
+  overflow: hidden;
+}
+.s23ultra {
+  background: url(../img/samsung/23ultra/23ultra\ frente.png);
+}
+.s22u {
+  background: url(../img/samsung/s22ultra/s22ultra-negro-frente-rotado.png);
+}
+.s22 {
+  background: url(../img/samsung/s22/s22-blanco-frente-rotado.png);
+}
+.zfold {
+  background: url(../img/samsung/zfold/zfold\ frente\ d.png);
+}
+.flip {
+  background: url(../img/samsung/zflip/flip4-graphite-frenterotado_5.png);
+}
+.s20 {
+  background: url(../img/samsung/20se/20se\ inclinado.png);
+}
+.img {
+  width: 100%;
+  height: 75%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 @media (max-width: 992px) {
   .navbar {
     width: 100%;
