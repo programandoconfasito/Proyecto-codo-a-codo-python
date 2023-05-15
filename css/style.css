@@ -104,7 +104,7 @@ body {
   width: 100%;
   height: 15vh;
   margin: 50px 0;
-  background-color: rgb(160, 65, 65);
+  background-color: rgba(97, 97, 97, 0.699);
 }
 .ofertasEspeciales h2 {
   color: white;
@@ -126,10 +126,27 @@ body {
   background: rgb(150, 150, 150);
   box-shadow: 0 0 10px 3px black;
 }
+.textO {
+  text-align: center;
+  margin: 10px auto;
+}
+.textO p {
+  font-size: 2rem;
+  color: white;
+}
+
+.ofe1 {
+  background: url(../img/iphone/png-transparent-iphone11-pro-max-PhotoRoom.png-PhotoRoom.png);
+}
+.ofe2 {
+  background: url(../img/xiaomi/xiaomi12ultra/xiaomi_12sultra.png);
+}
+.ofe3 {
+  background: url(../img/samsung/20se/20se.png);
+}
 .oferta-img {
   width: 100%;
   height: 75%;
-  background: url(../img/xiaomi/13pro/13problanco.png);
   background-color: white;
   background-position: center;
   background-size: cover;
@@ -255,11 +272,18 @@ input[type="submit"]:hover {
 .ubicacion {
   width: 50%;
   height: 70%;
-  margin: 30px 30px 0 0px;
+  margin: 0px 30px 0 0px;
 }
 .mapa {
   width: 100%;
   height: 100%;
+}
+.calle {
+  text-align: center;
+  padding: 10px;
+}
+.calle p {
+  font-weight: 300;
 }
 
 .celulares {
@@ -403,7 +427,7 @@ input[type="submit"]:hover {
   width: 33%;
   height: 500px;
   /* border-radius: 20px; */
-  background: rgb(255, 253, 253);
+  background: rgb(255, 254, 254);
   overflow: hidden;
 }
 
@@ -435,7 +459,8 @@ input[type="submit"]:hover {
 }
 .text {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin: 5px;
   color: black;
   font-style: bold;
 }
@@ -444,16 +469,22 @@ input[type="submit"]:hover {
   transform: scale(1.2);
   transition: 0.5s;
 }
+.botonera {
+  display: flex;
+  justify-content: center;
+}
 .tarjeta-button {
-  display: block;
+  display: inline-block;
   padding: 10px;
-  margin: 10px auto;
   border-radius: 10px;
+  margin: 0 10px;
 }
 .tarjeta-button:hover {
   cursor: pointer;
   transition: 1s;
-  background-color: rgb(1, 83, 236);
+  background-color: rgba(102, 102, 102, 0.541);
+  color: white;
+  border: 1px solid white;
 }
 .sobre-iphone {
   width: 100%;
