@@ -6,12 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <title>Contacto</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init('2X4CLSezAF6QZiUEy')
+  </script>
 </head>
 
 <body>
   <header>
-    <nav class="navbar">
+    <nav class="navbar nav-productos">
       <div class="logo">
         <a href="../index.html">TOPE DE GAMA</a>
       </div>
@@ -33,37 +38,40 @@
     <article class="contacto">
       <div class="formulario">
 
-        <form id="form" acción="https://formsubmit.co/proyectodeprogramador@gmail.com" método="POST"
-          onsubmit="return validarFormulario()">
+        <form id="form">
           <h1 class="titulo-contacto">Contacto</h1>
-          <input type="text" placeholder="Nombre" id="nombre" name="nombreP"> <br>
-          <input type="text" placeholder="Apellido" id="apellido" name="apellid"> <br>
+          <input type="text" placeholder="Nombre" name="from_name" id="from_name"> <br>
+          <input type="text" placeholder="Apellido" name="to_name" id="to_name"> <br>
           <!-- <input type="date" name="" id=""> <br> -->
-          <input type="email" placeholder="Email" id="email" name="correo"> <br>
-          <input type="tel" placeholder="Número de telefono" id="cel" name="tel"> <br>
-          <textarea name="" id="comentario" cols="49" rows="5" placeholder="Comentario" name="texto"></textarea> <br>
-          <input type="submit" value="Enviar">
+          <input type="email" placeholder="Email" name="email_id" id="email_id"> <br>
+          <input type="tel" placeholder="Número de telefono" name="message" id="message"> <br>
+          <textarea name="" id="comentario" cols="49" rows="5" placeholder="Comentario" name="Comentario"></textarea>
+          <br>
+          <input type="submit" value="Enviar" id="button">
         </form>
       </div>
       <div class="ubicacion">
-        <div class="calle">
-          <h3>Nuestro local se encuentra ubicado en: <p>Calle falsa 123</p>
-          </h3>
-        </div>
+        <h1 class="titulo-contacto">Ubicación</h1>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3010.8053377251367!2d-58.360095863759355!3d-34.62168885842166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1680324540116!5m2!1ses!2sar"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+          height="400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          class="mapa"></iframe>
+        <div class="calle">
+          <h3>Nos encontramos en: <p>Calle falsa 123</p>
+          </h3>
+        </div>
       </div>
     </article>
   </main>
   <footer>
     <div class="footer">
       <div class="redes">
-        <h2 class="titulo-redes">Redes</h4>
-          <img src="../img/iconos/facebook.png" alt="logo-facebook" width="50" />
-          <img src="../img/iconos/gorjeo.png" alt="logo-twitter" / width="50"> <img src="../img/iconos/instagram.png"
-            alt="logo-instagram" / width="55">
-          <img src="../img/iconos/whatsapp.png" alt="logo-whatsapp" width="50" />
+        <h2 class="titulo-redes">Redes:</h2>
+        <a href="/"><i class='bx bxl-whatsapp icon'></i></a>
+        <a href="/"><i class='bx bxl-instagram icon'></i></a>
+        <a href="/"><i class='bx bxl-facebook icon'></i></a>
+        <a href="/"><i class='bx bxl-twitter icon'></i></a>
+
       </div>
       <div class="nosotros">
         <h2>Tope de gama</h2>

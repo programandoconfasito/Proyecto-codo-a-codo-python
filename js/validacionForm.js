@@ -1,8 +1,8 @@
 function validarFormulario() {
-  let nombre = document.querySelector("#nombre").value.trim();
-  let apellido = document.querySelector("#apellido").value.trim();
-  let email = document.querySelector("#email").value.trim();
-  let celular = document.querySelector("#cel").value.trim();
+  let nombre = document.querySelector("#from_name").value.trim();
+  let apellido = document.querySelector("#to_name").value.trim();
+  let email = document.querySelector("#email_id").value.trim();
+  let celular = document.querySelector("#message").value.trim();
 
   if (nombre === "" || apellido === "" || email === "" || celular === "") {
     alert("Por favor complete todos los campos del formulario");
@@ -41,4 +41,28 @@ function validarFormulario() {
   return true;
 }
 
-//
+//envío con API de EmailJs
+
+const btn = document.getElementById("button");
+
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  btn.value = "Enviando...";
+
+  const serviceID = "default_service";
+  const templateID = "template_wi4issy";
+
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      if (validarFormulario()) {
+        btn.value = "Send Email";
+        alert("Enviado!");
+      }
+    },
+    (err) => {
+      btn.value = "Send Email";
+      alert(JSON.stringify(err));
+    }
+  );
+});
