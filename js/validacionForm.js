@@ -40,3 +40,5 @@ function validarFormulario() {
   alert("Formulario enviado correctamente.");
   return true;
 }
+
+//
