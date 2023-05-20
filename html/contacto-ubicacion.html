@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/style.css" />
   <title>Contacto</title>
-  <script src="./email.min.js"></script>
+  <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
     <article class="contacto">
       <div class="formulario">
 
-        <form id="form" onsubmit="return validarFormulario()">
+        <form id="form" onsubmit="return enviarFormulario()">
           <h1 class=" titulo-contacto">Contacto</h1>
           <input type="text" placeholder="Nombre" id="nombre"> <br>
           <input type="text" placeholder="Apellido" id="apellido"> <br>
