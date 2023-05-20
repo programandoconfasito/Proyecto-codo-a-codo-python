@@ -33,14 +33,15 @@
     <article class="contacto">
       <div class="formulario">
 
-        <form id="form" onsubmit="return validarFormulario()">
+        <form id="form" acción="https://formsubmit.co/proyectodeprogramador@gmail.com" método="POST"
+          onsubmit="return validarFormulario()">
           <h1 class="titulo-contacto">Contacto</h1>
-          <input type="text" placeholder="Nombre" id="nombre"> <br>
-          <input type="text" placeholder="Apellido" id="apellido"> <br>
+          <input type="text" placeholder="Nombre" id="nombre" name="nombreP"> <br>
+          <input type="text" placeholder="Apellido" id="apellido" name="apellid"> <br>
           <!-- <input type="date" name="" id=""> <br> -->
-          <input type="email" placeholder="Email" id="email"> <br>
-          <input type="tel" placeholder="Número de telefono" id="cel"> <br>
-          <textarea name="" id="comentario" cols="49" rows="5" placeholder="Comentario"></textarea> <br>
+          <input type="email" placeholder="Email" id="email" name="correo"> <br>
+          <input type="tel" placeholder="Número de telefono" id="cel" name="tel"> <br>
+          <textarea name="" id="comentario" cols="49" rows="5" placeholder="Comentario" name="texto"></textarea> <br>
           <input type="submit" value="Enviar">
         </form>
       </div>
