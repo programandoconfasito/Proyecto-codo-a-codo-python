@@ -673,7 +673,6 @@ textarea {
 }
 
 @media (max-width: 992px) {
-  
   .aparecer {
     transform: translate(0%);
   }
@@ -684,7 +683,7 @@ textarea {
     display: flex;
     flex-direction: column;
   }
-  .logo{
+  .logo {
     text-align: center;
     line-height: 10vh;
     margin-left: 0;
@@ -693,18 +692,18 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .desordenada li {
     padding: 10px;
   }
 
-  .head{
+  .head {
     height: 30%;
   }
-  .title-header{
+  .title-header {
     display: none;
   }
-  .subtitulo{
+  .subtitulo {
     padding: 10px 20px;
     margin: 0;
     text-align: center;
@@ -714,16 +713,16 @@ textarea {
     bottom: 0px;
     width: 100%;
   }
-  .servicio{
+  .servicio {
     width: 100%;
     height: 130vh;
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .paquete{
+  .paquete {
     margin: 0;
   }
 
@@ -748,23 +747,22 @@ textarea {
     background-size: cover;
   }
 
-  .redes{
+  .redes {
     flex-direction: column;
     width: 50%;
   }
-  .redes a{
+  .redes a {
     margin: 5px 20px 5px 0;
   }
-  .titulo-redes{
+  .titulo-redes {
     justify-content: center;
     margin: 10px 0;
   }
   .politicas {
     display: none;
-    
   }
 
-  .nosotros{
+  .nosotros {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -811,7 +809,7 @@ textarea {
   }
   .contacto {
     width: 100%;
-    height: 160vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -824,11 +822,12 @@ textarea {
   .formulario {
     justify-content: center;
     width: 90%;
-    height: 40%;
+    height: 50%;
     border: solid 1px black;
     border-radius: 15px;
     background: white;
     box-shadow: 0 0 10px black;
+    margin: 30px 0;
   }
   .formulario input {
     display: block;
@@ -864,13 +863,13 @@ textarea {
   .ubicacion {
     width: 80%;
     height: 50%;
-    margin: 0px 30px 0 0px;
+    margin: 0;
   }
   .mapa {
     width: 100%;
-    height: 80%;
+    height: 70%;
   }
   .aparecer {
     transform: translate(0%);
-  } */
+  }
 }
