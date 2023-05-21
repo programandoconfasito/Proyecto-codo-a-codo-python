@@ -351,6 +351,7 @@ input[type="submit"]:hover {
 textarea {
   display: block;
   width: 90%;
+  height: 150px;
   padding: 10px;
   margin: 0 auto;
   background: #e9e9e9;
@@ -419,8 +420,8 @@ textarea {
   width: 40px;
   height: 40px;
   border-radius: 5px;
+  background-color: white;
   box-shadow: 1px 1px 3px rgb(3, 3, 3);
-  background: white;
   position: fixed;
   cursor: pointer;
   top: 80px;
@@ -496,6 +497,39 @@ textarea {
   background-position: center;
 }
 
+/*TODO: Celulares*/
+.text-celulares {
+  margin-top: 110px;
+}
+
+.section-celulares {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.tarjeta-celulares {
+  margin: 10px 3px;
+  width: 33%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.botonera {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta-button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+/*Portada Xiaomi*/
 .sobre-xiaomi {
   width: 100%;
   height: 100vh;
@@ -504,40 +538,6 @@ textarea {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-.xiaomi-title {
-  text-align: center;
-  font-size: 6rem;
-  color: white;
-}
-
-.xiaomi-text {
-  text-align: center;
-  color: white;
-  margin-top: 170px;
-}
-
-.xiaomi-p {
-  font-size: 3rem;
-}
-
-.xiaomi-section {
-  width: 100%;
-  height: 250vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.xiaomi-tarjeta {
-  margin: 10px 3px;
-  width: 33%;
-  height: 500px;
-  /* border-radius: 20px; */
-  background: rgb(255, 254, 254);
-  overflow: hidden;
 }
 
 .redmi12 {
@@ -564,40 +564,7 @@ textarea {
   background: url(../img/xiaomi/redminote8/redminote8portada.jpg);
 }
 
-.img {
-  width: 100%;
-  height: 75%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.text {
-  text-align: center;
-  font-size: 1.5rem;
-  margin: 5px;
-  color: black;
-  font-style: bold;
-}
-
-.img:hover {
-  transform: scale(1.2);
-  transition: 0.5s;
-}
-
-.botonera {
-  display: flex;
-  justify-content: center;
-}
-
-.tarjeta-button {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 0 10px;
-}
-
+/*Portada iphone*/
 .sobre-iphone {
   width: 100%;
   height: 100vh;
@@ -606,22 +573,6 @@ textarea {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.iphone-section {
-  width: 100%;
-  height: 250vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.iphone-tarjeta {
-  margin: 10px 3px;
-  width: 33%;
-  height: 500px;
-  /* border-radius: 20px; */
-  background: rgb(255, 254, 254);
-  overflow: hidden;
 }
 
 .iphone14 {
@@ -640,15 +591,6 @@ textarea {
   background: url(../img/iphone/png-transparent-iphone11-pro-max-PhotoRoom.png-PhotoRoom.png);
 }
 
-.img {
-  width: 100%;
-  height: 75%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
 .iphone14v {
   background: url(../img/iphone/14\ pro\ violeta-PhotoRoom.png-PhotoRoom.png);
   background-size: cover;
@@ -665,22 +607,7 @@ textarea {
   background-position: center;
   background-attachment: fixed;
 }
-.samsung-section {
-  width: 100%;
-  height: 250vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.samsung-tarjeta {
-  margin: 10px 3px;
-  width: 33%;
-  height: 500px;
-  /* border-radius: 20px; */
-  background: rgb(255, 254, 254);
-  overflow: hidden;
-}
+
 .s23ultra {
   background: url(../img/samsung/23ultra/23ultra\ frente.png);
 }
@@ -699,41 +626,18 @@ textarea {
 .s20 {
   background: url(../img/samsung/20se/20se\ inclinado.png);
 }
-.img {
-  width: 100%;
-  height: 75%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
 
 /* MOTOROLA */
 .sobre-moto {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(65, 65, 65, 0.103), rgba(56, 56, 56, 0.205)),
+  background: linear-gradient(rgba(7, 7, 7, 0.507), rgba(56, 56, 56, 0.534)),
     url(../img/motorola/motorola\ port\ grande.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.moto-section {
-  width: 100%;
-  height: 250vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.moto-tarjeta {
-  margin: 10px 3px;
-  width: 33%;
-  height: 500px;
-  /* border-radius: 20px; */
-  background: rgb(255, 254, 254);
-  overflow: hidden;
-}
+
 .edge30u {
   background: url(../img/motorola/edge30ultra/edge30-negro-frente-rotado_4.png);
 }
@@ -752,13 +656,20 @@ textarea {
 .g22 {
   background: url(../img/motorola/g22/g22-negro-frente.png);
 }
+
+/*Imagenes celulares*/
 .img {
   width: 100%;
   height: 75%;
   background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 @media (max-width: 992px) {
@@ -839,6 +750,7 @@ textarea {
 
   .redes{
     flex-direction: column;
+    width: 50%;
   }
   .redes a{
     margin: 5px 20px 5px 0;
@@ -853,10 +765,12 @@ textarea {
   }
 
   .nosotros{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 40px;
   }
   .sidebar {
     width: 85vw;
@@ -897,7 +811,7 @@ textarea {
   }
   .contacto {
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -909,7 +823,7 @@ textarea {
   }
   .formulario {
     justify-content: center;
-    width: 70%;
+    width: 90%;
     height: 40%;
     border: solid 1px black;
     border-radius: 15px;
