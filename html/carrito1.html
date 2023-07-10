@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  
+
   <div id="app">
     <h1>Carrito de compras</h1>
     <h3>Codo a Codo 2023</h3>
@@ -31,8 +31,8 @@
           <td align="right">{{ producto.cantidad }}</td>
           <td align="right">&nbsp; &nbsp; {{ producto.precio }}</td>
           <td>
-            <button @click="agregarAlCarrito(producto)">&nbsp;&nbsp;<b>+</b>&nbsp;&nbsp;</button>
-            <button @click="restarDelCarrito(producto)">&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;</button>
+            <button @click="agregarAlCarrito(producto)" class="agregar">&nbsp;&nbsp;<b>+</b>&nbsp;&nbsp;</button>
+            <button @click="restarDelCarrito(producto)" class="eliminar">&nbsp;&nbsp;<b>-</b>&nbsp;&nbsp;</button>
           </td>
         </tr>
       </tbody>

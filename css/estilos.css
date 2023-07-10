@@ -1,108 +1,117 @@
 /* Estilos para todo el proyecto */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
 .contenedor-centrado {
-    display:flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f9f9f9;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    color: #232f3e;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: #232f3e;
 }
 
 form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(129, 127, 127, 0.418);
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
 }
 
 table {
-    height: 70vh;
-    width: 30%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid lightslategray;
-    border-radius: 5px;
-    text-align: center;
+  height: 70vh;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(12, 11, 11, 0.137);
+  border: 1px solid rgb(42, 41, 99);
+  border-radius: 10px;
+  text-align: center;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="number"],
 textarea {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
 }
 
 input[type="submit"] {
-    padding: 10px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 button {
-    padding: 8px;
-    margin:4px;
-    background-color: #232f3e;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 8px;
+  margin: 4px;
+  background-color: #232f3e;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #232f3e83;
-    color: black;
+  background-color: #232f3e83;
+  color: black;
 }
 
 a {
-    padding: 15px;
-    margin:8px;
-    background-color: #232f3e;
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    align-items: center;
+  padding: 15px;
+  margin: 8px;
+  background-color: #232f3e;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  align-items: center;
 }
 
 a:hover {
-    background-color: #232f3e83;
-    color: black;
+  background-color: #232f3e83;
+  color: black;
 }
-.eliminar{
-    background-color: red;
+.eliminar {
+  background-color: red;
+}
+.agregar {
+  background-color: rgb(10, 104, 10);
 }

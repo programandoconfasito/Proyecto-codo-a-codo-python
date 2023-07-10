@@ -1072,6 +1072,7 @@ textarea {
     url(../img/fondoadmin.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 .titulo-admin,
 h1 {
@@ -1112,5 +1113,10 @@ h1 {
 }
 
 .tabla {
-  background: rgba(134, 137, 168, 0.493);
+  background: rgba(249, 249, 250, 0.493);
+}
+
+.contenedor-centrado a {
+  width: 30vw;
+  text-align: center;
 }
