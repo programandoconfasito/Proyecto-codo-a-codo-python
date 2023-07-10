@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado de Productos</title>
-    <link rel="stylesheet" href="../css/estilos.css>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
@@ -28,13 +28,13 @@
                 <td>{{ producto.descripcion }}</td>
                 <td>{{ producto.cantidad }}</td>
                 <td align="right">{{ producto.precio }}</td>
-                <td><button  class="eliminar" @click="eliminarProducto(producto.codigo)">Eliminar</button></td>
+                <td><button @click="eliminarProducto(producto.codigo)">Eliminar</button></td>
             </tr>
         </tbody>
     </table>
 
     <div class="contenedor-centrado">
-        <a href="administacion.html">Menu principal</a>
+        <a href="index.html">Menu principal</a>
     </div>
 
     <script src="https://unpkg.com/vue@next"></script>
@@ -99,4 +99,5 @@
         app.mount('body');
     </script>
 </body>
+
 </html>
