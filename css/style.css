@@ -1107,3 +1107,7 @@ h1 {
   cursor: pointer;
   background-color: rgba(15, 64, 104, 0.973);
 }
+
+.tabla {
+  background: rgba(134, 137, 168, 0.493);
+}
